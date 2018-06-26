@@ -25,3 +25,16 @@ Host someinternalhost
 Домашнее задание №4:
 testapp_IP = 104.199.105.129
 testapp_port = 9292
+
+Команда для создания инстанса с использованием startup script:
+
+gcloud compute instances create reddit-app-test\
+  --boot-disk-size=10GB \
+  --image-family ubuntu-1604-lts \
+  --image-project=ubuntu-os-cloud \
+  --machine-type=g1-small \
+  --tags puma-server \
+  --zone=europe-west1-b \
+  --restart-on-failure \
+  --metadata-from-file startup-script=./startup_script.sh
+
