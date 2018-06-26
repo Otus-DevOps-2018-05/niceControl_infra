@@ -20,3 +20,8 @@ Host someinternalhost
 	HostName 10.132.0.3
 	User appuser
 	ProxyCommand ssh -W %h:%p -i ~/.ssh/appuser appuser@35.233.3.231
+
+	
+Домашнее задание №4:
+testapp_IP = 104.199.105.129
+testapp_port = 9292
