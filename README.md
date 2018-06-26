@@ -38,3 +38,6 @@ gcloud compute instances create reddit-app-test\
   --restart-on-failure \
   --metadata-from-file startup-script=./startup_script.sh
 
+Для создания правила брандмауэра через консоль, нужно запусть команду:
+gcloud compute firewall-rules create puma-default-server --target-tags="puma-server" --source-ranges="0.0.0.0/0" --allow tcp:9292
+
