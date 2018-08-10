@@ -92,5 +92,13 @@ gcloud compute firewall-rules create puma-default-server --target-tags="puma-ser
 * Проверена работа Ansible с использованием inventory.sh, которая выполнила все заданные действия для всех сущностей, описанных в inventory.json
 
 
+# Домашнее задание №9
+
+## В процессе сделано:
+* Рассмотрены различные варианты работы с Playbook'ами, с последующей декомпозицией
+* Заменены скрипты sh в Packer на плейбуки.
+
+
+
 
 
