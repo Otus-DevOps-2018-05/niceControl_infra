@@ -21,3 +21,4 @@ vault.key
 .cache 
 .pytest_cache
 niceControl_infra/
+
